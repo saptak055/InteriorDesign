@@ -1,0 +1,263 @@
+
+#imghead{
+    background-image: url("https://www.livespree.co/wp-content/uploads/2020/10/mobile_banner.png");
+    height: 481px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+}
+#head1{
+    max-width: 564px;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #363636;
+    margin-left: 10%;
+    padding-top: 70px;
+}
+#head2{
+    margin-left: 10%;
+    margin-top: 50px;
+    max-width: 501px;
+    background: linear-gradient(90deg, rgba(255, 250, 139, 0.9) 0%, rgba(255, 184, 0, 0.88) 100%);
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 0;
+    color: #000000;
+    cursor: pointer;
+}
+.ffamily{
+    font-family: Raleway;
+}
+#howitworks,#ourservice{
+    margin: 60px 8%;
+    color: #000000;
+}
+.hiw_head{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Open Sans;
+}
+.hiw_ul{
+    height: 2px;
+    background-color: black;
+    width: 100px;
+    background: rgba(255, 184, 0, 0.72);
+    margin-top: 15px;
+}
+#howitworks_dtl{
+    margin-top: 30px;
+	  max-width: 60%;
+}
+.sec2_subH{
+		display: flex!important;
+    align-items: center!important;
+    margin-top: -1px;
+}
+.sec2_subH span{
+    margin-left: 25px;
+    font-size: 27px;
+}
+.sec2_sub{
+    margin-left: 10px;
+    margin-top: 0;
+    border-left: solid 10px #FF4B4B;
+    padding: 25px 0 45px 35px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.lightclr{
+    border-left: solid 10px #FF9D9D;
+}
+.sec2_sub:last-child{
+    border-left: solid 10px rgba(255, 75, 75, 0);
+}
+#ourser_coll{
+    max-width:60%;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.coll_comb_{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.coll_comb_>span{    
+    margin-top: 10px;
+}
+.coll_comb_:hover img {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 330ms ease-in-out;
+}
+#sec_contactfrm{
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom:0;
+    right: 0;
+    padding: 15px;
+    width: 37%;
+    float: right;
+}
+#sec_contactfrm>.hiw_head{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Open Sans;
+}
+.giveusdtl{
+    font-size: 14px;
+    margin: 10px 0;
+    color:#B0B0B0;
+    font-family: Open Sans;
+}
+.contactform_fields{
+    padding:5px 20px 20px 20px;
+    border: 1px solid #FF792E;
+    box-sizing: border-box;
+}
+
+
+
+.form-heading {
+	margin-top: 0;
+	margin-bottom: 1.2em;
+	text-align: center;
+}
+
+.form-heading-highlight {
+	color: #009688;
+}
+
+.form-row {
+	position: relative;
+	margin-top: 20px;
+}
+
+.form-label {
+	position: absolute;
+	top: 7px;
+    left: 12px;
+    font-size: 12px;
+	color: #999;
+	cursor: text;
+	transition: all .15s ease-in-out 0s;
+}
+
+.form-textbox{
+	width: 90%;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid rgba(208, 208, 208, 0.8);
+    font-family: Open Sans;
+    letter-spacing: 1px;
+}
+
+.form-textbox:focus ~ .form-label,
+.form-textbox:valid ~ .form-label {
+	top: -1.2em;
+	left: 0.8em;
+	font-size: .7em;
+	color: inherit;
+    cursor: pointer;
+    background:white;
+    padding: 0 5px;
+}
+.form-textbox:focus{
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #FF792E!important;
+}
+
+.form-submit {
+    background: linear-gradient(90deg, #FF9D9D 0%, #FF0000 100%);
+    color: #fff;
+    transition: opacity .15s ease-in-out 0s;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+	opacity: .75;
+}
+.req_field{
+    color:red;
+}
+@media only screen and (max-width: 768px) {
+	#sec_contactfrm{
+		position:static;
+        width:100%;
+        float: none;
+	}
+	#ourser_coll{
+		max-width:100%;
+	}
+	#howitworks_dtl{
+		max-width:100%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#head1 {
+    max-width: auto; 
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #363636;
+    padding-top: 50px;
+    margin: auto 60px;
+    }
+	#head2{
+		    margin: 30px 60px;
+    max-width: auto;
+    background: linear-gradient(90deg, rgba(255, 250, 139, 0.9) 0%, rgba(255, 184, 0, 0.88) 100%);
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 13px 0;
+    color: #000000;
+    cursor: pointer;
+	}
+	#imghead{
+		height:300px;
+	}
+	.coll_comb_ img{
+		height:220px;
+		width:220px;
+	}
+}
+@media only screen and (max-width:532px) {
+	#head1 {
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #363636;
+    padding-top: 10px;
+    margin: auto 20px;
+    }
+	#head2{
+		    margin: 30px 20px;
+    max-width: auto;
+    background: linear-gradient(90deg, rgba(255, 250, 139, 0.9) 0%, rgba(255, 184, 0, 0.88) 100%);
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 13px 0;
+    color: #000000;
+    cursor: pointer;
+	}
+}
